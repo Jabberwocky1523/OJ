@@ -1,0 +1,1 @@
+{"name":"Local: 2_4","url":"/home/kurisu/Desktop/复试/OJ/test/2_4.cpp","tests":[{"id":1770541124730,"input":"5 4\n10 2 3 4 5\n10 3 2 5 4\n5 10 3 2 4\n2 3 10 4 5\n3 5 10 4 2","output":"yes\nno\nyes\nyes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/kurisu/Desktop/复试/OJ/test/2_4.cpp","group":"local","local":true}

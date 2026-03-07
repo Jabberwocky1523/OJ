@@ -1,0 +1,55 @@
+{
+    "C++ Main Template": {
+        "prefix": "cpp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "using namespace std;",
+            "int main()",
+            "{",
+            "    ios::sync_with_stdio(false);",
+            "    ",
+            "    return 0;",
+            "}"
+        ],
+        "description": "C++主函数模板"
+    },
+    "C++ Fast IO": {
+        "prefix": "fastio",
+        "body": [
+            "ios::sync_with_stdio(false);",
+            "cin.tie(nullptr);",
+            "cout.tie(nullptr);"
+        ],
+        "description": "快速输入输出"
+    },
+    // "C++ For Loop": {
+    //     "prefix": "for",
+    //     "body": [
+    //         "for (int ${1:i} = ${2:0}; ${1:i} < ${3:n}; ${1:i}++) {",
+    //         "    ${4:// code}",
+    //         "}"
+    //     ],
+    //     "description": "for循环模板"
+    // },
+    // "C++ Vector": {
+    //     "prefix": "vector",
+    //     "body": [
+    //         "vector<${1:int}> ${2:vec};"
+    //     ],
+    //     "description": "vector声明"
+    // },
+    "C++ Include Bits": {
+        "prefix": "bits",
+        "body": [
+            "#include <bits/stdc++.h>"
+        ],
+        "description": "包含bits/stdc++.h头文件"
+    },
+    "C++ Using Namespace": {
+        "prefix": "using",
+        "body": [
+            "using namespace std;"
+        ],
+        "description": "使用std命名空间"
+    }
+}

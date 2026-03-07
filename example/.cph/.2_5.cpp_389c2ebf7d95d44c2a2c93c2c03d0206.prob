@@ -1,0 +1,1 @@
+{"name":"Local: 2_5","url":"/home/kurisu/Desktop/复试/OJ/example/2_5.cpp","tests":[{"id":1770535161202,"input":"500 3\n100 200\n150 300\n470 471\n","output":"298\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/kurisu/Desktop/复试/OJ/example/2_5.cpp","group":"local","local":true}

@@ -1,0 +1,33 @@
+{
+    "rooCode.apiKey": "8bdb651090824ce7bb567853e3d68cdf.AFIxq19XxNKo3mFu",
+    "editor.suggest.enabled": true,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.maxVisibleSuggestions": 10,
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": true,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showUnits": false,
+    "editor.suggest.showValues": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showReferences": false,
+    "editor.suggest.showIssues": false,
+    "editor.suggest.showUsers": false,
+    "C_Cpp.autocomplete": "Default",
+    "C_Cpp.suggestSnippets": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.intelliSenseEngineFallback": true,
+    "C_Cpp.errorSquiggles": "Disabled"
+}
