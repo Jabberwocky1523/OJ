@@ -29,5 +29,6 @@
     "C_Cpp.suggestSnippets": true,
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.intelliSenseEngineFallback": true,
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.default.compilerPath": "/usr/bin/clang"
 }
