@@ -40,12 +40,11 @@ int main()
     cin >> n;
     string s1 = to_string(n), s2 = to_string(n);
     reverse(s2.begin(), s2.end());
-    int sum = 0;
     string ans = add(s1, s2);
+    int sum = 1;
     while (!a(ans))
     {
         /* code */
-        cout << ans << endl;
         string temp = ans;
         reverse(temp.begin(), temp.end());
         ans = add(ans, temp);
