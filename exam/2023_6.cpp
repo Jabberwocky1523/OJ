@@ -1,38 +1,53 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
+struct node
+{
+    ll diff, cur;
+    node(ll _diff, ll _cur)
+    {
+        diff = _diff, cur = _cur;
+    }
+};
 int main()
 {
     ios::sync_with_stdio(false);
-    int d[1001];
-    memset(d, 0, sizeof(int) * 1001);
-    for (int i = 2; i <= 1000; i++)
+    ll d[1001];
+    vector<ll> v;
+    memset(d, 0, sizeof(ll) * 1001);
+    for (ll i = 2; i <= 1000; i++)
     {
         if (d[i] == 0)
         {
-            for (int j = i * 2; j <= 1000; j += i)
+            v.push_back(i);
+            for (ll j = i * 2; j <= 1000; j += i)
             {
                 d[j] = 1;
             }
         }
     }
-    int n, sum = 0;
+    ll n, sum = 0;
     cin >> n;
-    queue<int> q;
-    q.push(n);
+    queue<node> q;
+    q.push(node(n, n));
     while (q.size())
     {
-        int &diff = q.front();
+        node &nn = q.front();
         q.pop();
-        if (diff == 0 || diff == 2 || diff == 4)
+        if (nn.diff == 0)
         {
             sum++;
             continue;
         }
-        for (int i = diff; i > 2; i--)
+        else if (nn.diff == 1)
+        {
+            continue;
+        }
+        for (ll i = min(nn.diff, nn.cur); i >= 2; i--)
         {
             if (d[i] == 0)
             {
-                q.push(diff - i);
+                q.push(node(nn.diff - i, i));
             }
         }
     }
